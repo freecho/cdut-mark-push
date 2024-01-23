@@ -139,6 +139,17 @@ requests.exceptions.ProxyError: HTTPSConnectionPool(host='jw.cdut.edu.cn', port=
 命令行输出了：`首次推送成功`或者`推送更新成功`但是收不到微信推送
 查看下一行的返回结果，一般为token配置错误
 
+## 找不到成绩
+```
+Traceback (most recent call last):
+  File "D:\Downloads\Compressed\cdut-mark-push-master\main.py", line 116, in <module>
+    run(username=username, token=token)
+  File "D:\Downloads\Compressed\cdut-mark-push-master\main.py", line 28, in run
+    for row in table.find_all('tr')[1:]:  # [1:] 跳过表头
+AttributeError: 'NoneType' object has no attribute 'find_all'
+```
+这是教务处网站卡顿导致身份认证的session派发超时，部分账号存在这种问题，可以过段时间再试试，或者多试几次
+
 ## 其他
 请联系我或者提交`issues`
 

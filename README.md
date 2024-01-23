@@ -16,6 +16,9 @@
 ### 下载本仓库的代码
 
 下载方法1：使用`git`
+```
+git clone https://github.com/freecho/cdut-mark-push.git
+```
 
 下载方法2：直接在`GitHub`下载 选择`Code`然后点击`Download ZIP`
 

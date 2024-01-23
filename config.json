@@ -1,0 +1,29 @@
+{
+  "url": {
+    "login_form": "https://cas.paas.cdut.edu.cn/cas/login?service=http%3A%2F%2Fjw.cdut.edu.cn%2Fsso%2Flogin.jsp%3FtargetUrl%3Dbase64aHR0cDovL2p3LmNkdXQuZWR1LmNuL0xvZ29uLmRvP21ldGhvZD1sb2dvblNTT2NkbGdkeA%3D%3D",
+    "home": "https://jw.cdut.edu.cn/jsxsd/framework/xsMainV.htmlx",
+    "cjcx": "https://jw.cdut.edu.cn/jsxsd/kscj/cjcx_list",
+    "send": "http://www.pushplus.plus/send"
+  },
+  "headers": {
+    "login_headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://cas.paas.cdut.edu.cn/cas/login?service=http%3A%2F%2Fjw.cdut.edu.cn%2Fsso%2Flogin.jsp%3FtargetUrl%3Dbase64aHR0cDovL2p3LmNkdXQuZWR1LmNuL0xvZ29uLmRvP21ldGhvZD1sb2dvblNTT2NkbGdkeA%3D%3D",
+      "Connect": "keep-alive",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+  },
+  "data": {
+    "login_data": {
+      "captcha": "",
+      "currentMenu": "1",
+      "failN": "0",
+      "mfaState": "",
+      "execution": "e1s1",
+      "_eventId": "submit",
+      "geolocation": "",
+      "submit": "Login1"
+    }
+  }
+}

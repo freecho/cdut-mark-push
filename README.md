@@ -127,9 +127,13 @@ cookies.json:存储用户cookie
 
 # 异常/报错
 
-http连接错误：
+## http连接错误：
 ```
 requests.exceptions.ProxyError: HTTPSConnectionPool(host='jw.cdut.edu.cn', port=443): Max retries exceeded with url: /jsxsd/framework/xsMainV.htmlx (Caused by ProxyError('Unable to connect to proxy', OSError(0, 'Error')))
 
 ```
 这是因为当前网络被教务系统拒绝了，请等会再尝试或切换网络（大多数情况下是因为使用了VPN）
+
+## 收不到推送
+命令行输出了：`首次推送成功`或者`推送更新成功`但是收不到微信推送
+查看下一行的返回结果，一般为token配置错误

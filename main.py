@@ -65,8 +65,9 @@ def run(username, token):
                 response = requests.post(data=post_data, url=login.config["url"]["send"])
                 if response.status_code == 200:
                     print("推送更新成功")
+                    print(response.text)
                 else:
-                    print("推送更新失败,返回状态码：", response.status_code)
+                    print("推送更新失败,返回：", response.text)
         # 首次获取成绩
         else:
             # 设置推送文本
@@ -84,8 +85,9 @@ def run(username, token):
             response = requests.post(data=post_data, url=login.config["url"]["send"])
             if response.status_code == 200:
                 print("首次推送成功")
+                print(response.text)
             else:
-                print("首次推送失败,返回状态码：", response.status_code)
+                print("首次推送失败,返回：", response.text)
 
         # 更新成绩
         local_mark[username] = course_mark

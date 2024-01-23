@@ -1,6 +1,7 @@
 ## 创作不易，请给我点个star吧~
 
 # 作用
+
 每到考试后，关心成绩的同学就需要很麻烦的一次又一次查看成绩出了没有，非常麻烦
 
 使用本系统，你可以将它部署在电脑或服务器上（学校教务系统屏蔽了GitHub所以不能使用GitHub Action）
@@ -130,10 +131,19 @@ cookies.json:存储用户cookie
 ## http连接错误：
 ```
 requests.exceptions.ProxyError: HTTPSConnectionPool(host='jw.cdut.edu.cn', port=443): Max retries exceeded with url: /jsxsd/framework/xsMainV.htmlx (Caused by ProxyError('Unable to connect to proxy', OSError(0, 'Error')))
-
 ```
 这是因为当前网络被教务系统拒绝了，请等会再尝试或切换网络（大多数情况下是因为使用了VPN）
 
 ## 收不到推送
 命令行输出了：`首次推送成功`或者`推送更新成功`但是收不到微信推送
 查看下一行的返回结果，一般为token配置错误
+
+## 其他
+请联系我或者提交`issues`
+
+# 声明
+仅用于成都理工大学的学生研究学习或方便使用，禁止一切商业行为
+
+本项目严格控制访问速度，不会给教务系统造成负担
+
+请遵守GPL开源条约

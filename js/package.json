@@ -1,0 +1,15 @@
+{
+  "name": "cdut",
+  "version": "1.0.0",
+  "description": "js for local spider to cdut",
+  "main": "null",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "消逝中的寒光",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.3",
+    "jsencrypt": "^3.0.0-rc.1"
+  }
+}

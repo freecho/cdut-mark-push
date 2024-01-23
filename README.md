@@ -32,8 +32,9 @@ git clone https://github.com/freecho/cdut-mark-push.git
 `pip install -r requirements.txt`
 
 ## js依赖
-需要nodejs环境，推荐版本：Node.js v18.16.0
-在项目的js目录下打开命令行，运行：
+需要nodejs环境，推荐版本：Node.js v18.16.0，教程可见：`https://blog.csdn.net/WHF__/article/details/129362462`
+
+安装nodejs后在项目的js目录下打开命令行，运行：
 `npm install`
 
 ### 设置账户信息

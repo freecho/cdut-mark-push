@@ -24,8 +24,17 @@ git clone https://github.com/freecho/cdut-mark-push.git
 
 ### 下载依赖
 
+## python依赖
 使用pycharm打开本项目后，默认的会弹出创建虚拟环境的提示，确认即可，如图：
 ![](static/creater_venv.png)
+
+或者运行命令：
+`pip install -r requirements.txt`
+
+## js依赖
+需要nodejs环境，推荐版本：Node.js v18.16.0
+在项目的js目录下打开命令行，运行：
+`npm install`
 
 ### 设置账户信息
 
@@ -114,3 +123,12 @@ config.json:存储爬虫配置文件
 user.json:存储用户账号密码和pushplus的token（用于推送更新）
 
 cookies.json:存储用户cookie
+
+# 异常/报错
+
+http连接错误：
+```
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='jw.cdut.edu.cn', port=443): Max retries exceeded with url: /jsxsd/framework/xsMainV.htmlx (Caused by ProxyError('Unable to connect to proxy', OSError(0, 'Error')))
+
+```
+这是因为当前网络被教务系统拒绝了，请等会再尝试或切换网络（大多数情况下是因为使用了VPN）

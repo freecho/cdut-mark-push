@@ -9,6 +9,7 @@
 
 
 # 使用方法
+*你不需要任何编程知识，但需要具备下载程序，简单配置环境的能力*
 
 推荐使用IDE：Pycharm
 
@@ -147,3 +148,5 @@ requests.exceptions.ProxyError: HTTPSConnectionPool(host='jw.cdut.edu.cn', port=
 本项目严格控制访问速度，不会给教务系统造成负担
 
 请遵守GPL开源条约
+
+# 联系方式见本人主页

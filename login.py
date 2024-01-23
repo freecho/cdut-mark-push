@@ -72,7 +72,7 @@ class Login:
 
         # 提交登入数据，获取最终的session，并自动重定向到教务系统首页：https://jw.cdut.edu.cn/jsxsd/framework/xsMainV.htmlx
         self.session.post(url=self.login_url, data=login_data)
-        print("成功通过表单登入")
+        # print("成功通过表单登入")
 
     def __storage_cookie(self):
         json_data = {}
